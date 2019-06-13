@@ -1,0 +1,15 @@
+tsc funciones.ts  // para compilar
+tsc -init   //para crear archivo de configuracion json
+tsc -w  //se compila solo
+
+
+npm install webpack webpack-cli webpack-dev-serve   //instala webpack para compilar
+npm install typescript ts-loader --save-dev  //para modulos
+npm init -y   //para crear package.json para modulos
+
+
+se agrega en package.json
+"scripts": {
+    "start": "webpack-dev-server --mode developement"
+
+se crea un webpack.config.js
